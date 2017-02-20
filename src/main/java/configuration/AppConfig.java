@@ -5,7 +5,11 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 import aspects.Audience;
-import beans.*;
+import beans.BaseballGame;
+import beans.Cubs;
+import beans.Game;
+import beans.RedSox;
+import beans.Team;
 
 @Configuration
 @EnableAspectJAutoProxy  //enable aspects
